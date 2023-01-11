@@ -7,7 +7,7 @@ public class MenuBuilder {
 
     // Create a variable called menuTitle of type String and assign it the value "My
     // Dream Menu:".
-
+    
     // Print the menuTitle variable to the console.
 
     // Create a variable called menu of type ArrayList.
