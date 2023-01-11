@@ -3,17 +3,37 @@ package _03_02;
 public class GradingSystem {
 
   public boolean isAPass(int percentage) {
-    // Return true if the percentage is higher than or equal to 60.
+  // Return true if the percentage is higher than or equal to 60.
     // Otherwise return false.
+    if (percentage >= 60){
+      return true;
+    }
+    else 
     return false;
   }
 
   public char getGrade(int percentage) {
     // If the percentage is 90 or above, return 'A'.
+    if (percentage >= 90){
+      return 'A';
+    }
     // If it's 80-89, return 'B'.
+    else  if (percentage >= 80 || percentage <=89){
+      return 'B';
+    }
     // If it's 70-79, return 'C'.
+    else  if (percentage >= 70  || percentage <= 79){
+      return 'C';
+    }
     // If it's 60-69, return 'D'.
+    else  if (percentage >= 60 || percentage <=69){
+      return 'D';
+    }
     // If it's less than 60, return 'F'.
+    else  if (percentage < 60){
+      return 'F';
+    }
+    else
     return 'X';
   }
 
