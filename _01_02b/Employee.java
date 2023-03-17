@@ -22,6 +22,7 @@ public class Employee {
     int baseSalary = 3000;
     // Create a variable called overtimePayment of type int and assign it the value
     // 40.
+    //push
     int overtimePayment = 40;
     // Create a variable called totalPayment of type int and assign it to the value
     // of baseSalary added to overtimePayment.
